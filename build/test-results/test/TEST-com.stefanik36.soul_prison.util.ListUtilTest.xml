@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stefanik36.soul_prison.util.ListUtilTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-11T14:44:53" hostname="daniel-Lenovo" time="0.004">
+  <properties/>
+  <testcase name="shuffle" classname="com.stefanik36.soul_prison.util.ListUtilTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

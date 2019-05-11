@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stefanik36.soul_prison.structures.NotFullyConnectedTest" tests="3" skipped="1" failures="0" errors="0" timestamp="2019-05-11T14:48:37" hostname="daniel-Lenovo" time="7.117">
+  <properties/>
+  <testcase name="wineDataTest01" classname="com.stefanik36.soul_prison.structures.NotFullyConnectedTest" time="7.099"/>
+  <testcase name="xorTest02" classname="com.stefanik36.soul_prison.structures.NotFullyConnectedTest" time="0.017"/>
+  <testcase name="wineDataTestFreeze02" classname="com.stefanik36.soul_prison.structures.NotFullyConnectedTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[ n1: 0.4716981132075472 n2: 0.37735849056603776 n3: 0.6226415094339622
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

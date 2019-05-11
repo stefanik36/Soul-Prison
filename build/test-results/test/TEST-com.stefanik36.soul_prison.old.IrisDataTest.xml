@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stefanik36.soul_prison.old.IrisDataTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-05-11T14:48:28" hostname="daniel-Lenovo" time="8.892">
+  <properties/>
+  <testcase name="irisDataSigmoidFullyConnectedByBuilder" classname="com.stefanik36.soul_prison.old.IrisDataTest" time="2.483"/>
+  <testcase name="irisDataSigmoidWithBiasAndMomentum" classname="com.stefanik36.soul_prison.old.IrisDataTest" time="1.275"/>
+  <testcase name="irisDataSigmoidFullyConnectedByBuilderDeleteConnection" classname="com.stefanik36.soul_prison.old.IrisDataTest" time="1.267"/>
+  <testcase name="irisDataSigmoidWithBias" classname="com.stefanik36.soul_prison.old.IrisDataTest" time="1.312"/>
+  <testcase name="irisDataSigmoid" classname="com.stefanik36.soul_prison.old.IrisDataTest" time="2.554"/>
+  <system-out><![CDATA[Test no. 1
+TEST RESULT [test accuracy: 0.955556 | test loss 0.000042]
+Test no. 2
+TEST RESULT [test accuracy: 0.977778 | test loss 0.842462]
+Test no. 3
+TEST RESULT [test accuracy: 0.888889 | test loss 0.161457]
+Test no. 4
+TEST RESULT [test accuracy: 0.977778 | test loss 0.007284]
+Test no. 5
+TEST RESULT [test accuracy: 1.000000 | test loss 0.000871]
+Test no. 6
+TEST RESULT [test accuracy: 0.911111 | test loss 0.000862]
+Test no. 7
+TEST RESULT [test accuracy: 0.933333 | test loss 0.002407]
+Test no. 8
+TEST RESULT [test accuracy: 0.911111 | test loss 0.039510]
+Test no. 9
+TEST RESULT [test accuracy: 0.955556 | test loss 0.001570]
+Test no. 10
+TEST RESULT [test accuracy: 0.911111 | test loss 1.133550]
+Test no. 11
+TEST RESULT [test accuracy: 0.977778 | test loss 0.000407]
+Test no. 12
+TEST RESULT [test accuracy: 0.955556 | test loss 0.007434]
+Test no. 13
+TEST RESULT [test accuracy: 0.955556 | test loss 0.014239]
+Test no. 14
+TEST RESULT [test accuracy: 1.000000 | test loss 0.001806]
+Test no. 15
+TEST RESULT [test accuracy: 0.933333 | test loss 0.022694]
+Test no. 16
+TEST RESULT [test accuracy: 0.955556 | test loss 0.015220]
+Test no. 17
+TEST RESULT [test accuracy: 0.977778 | test loss 0.005907]
+Test no. 18
+TEST RESULT [test accuracy: 0.955556 | test loss 0.000750]
+Test no. 19
+TEST RESULT [test accuracy: 0.977778 | test loss 0.021971]
+Test no. 20
+TEST RESULT [test accuracy: 0.955556 | test loss 0.304593]
+Test no. 1
+TEST RESULT [test accuracy: 0.977778 | test loss 0.004209]
+Test no. 2
+TEST RESULT [test accuracy: 0.933333 | test loss 0.405821]
+Test no. 3
+TEST RESULT [test accuracy: 0.733333 | test loss 0.127034]
+Test no. 4
+TEST RESULT [test accuracy: 1.000000 | test loss 0.013750]
+Test no. 5
+TEST RESULT [test accuracy: 0.977778 | test loss 0.003837]
+Test no. 6
+TEST RESULT [test accuracy: 0.822222 | test loss 0.192645]
+Test no. 7
+TEST RESULT [test accuracy: 0.933333 | test loss 0.007478]
+Test no. 8
+TEST RESULT [test accuracy: 0.955556 | test loss 0.053589]
+Test no. 9
+TEST RESULT [test accuracy: 0.955556 | test loss 0.006147]
+Test no. 10
+TEST RESULT [test accuracy: 0.800000 | test loss 1.024023]
+Test no. 11
+TEST RESULT [test accuracy: 0.977778 | test loss 0.000631]
+Test no. 12
+TEST RESULT [test accuracy: 0.777778 | test loss 0.156717]
+Test no. 13
+TEST RESULT [test accuracy: 0.933333 | test loss 0.010665]
+Test no. 14
+TEST RESULT [test accuracy: 0.955556 | test loss 0.230502]
+Test no. 15
+TEST RESULT [test accuracy: 0.955556 | test loss 0.005707]
+Test no. 16
+TEST RESULT [test accuracy: 0.955556 | test loss 0.035774]
+Test no. 17
+TEST RESULT [test accuracy: 0.977778 | test loss 0.002869]
+Test no. 18
+TEST RESULT [test accuracy: 0.955556 | test loss 0.001280]
+Test no. 19
+TEST RESULT [test accuracy: 0.955556 | test loss 0.535140]
+Test no. 20
+TEST RESULT [test accuracy: 0.955556 | test loss 0.059873]
+Test no. 1
+TEST RESULT [test accuracy: 0.622222 | test loss 1.006534]
+Test no. 2
+TEST RESULT [test accuracy: 0.533333 | test loss 0.475120]
+Test no. 3
+TEST RESULT [test accuracy: 0.555556 | test loss 0.151706]
+Test no. 4
+TEST RESULT [test accuracy: 0.644444 | test loss 1.030802]
+Test no. 5
+TEST RESULT [test accuracy: 0.622222 | test loss 1.008023]
+Test no. 6
+TEST RESULT [test accuracy: 0.600000 | test loss 1.002037]
+Test no. 7
+TEST RESULT [test accuracy: 0.577778 | test loss 0.558461]
+Test no. 8
+TEST RESULT [test accuracy: 0.555556 | test loss 0.110962]
+Test no. 9
+TEST RESULT [test accuracy: 0.644444 | test loss 1.035895]
+Test no. 10
+TEST RESULT [test accuracy: 0.555556 | test loss 0.899539]
+Test no. 11
+TEST RESULT [test accuracy: 0.622222 | test loss 1.004257]
+Test no. 12
+TEST RESULT [test accuracy: 0.644444 | test loss 0.014494]
+Test no. 13
+TEST RESULT [test accuracy: 0.600000 | test loss 0.025871]
+Test no. 14
+TEST RESULT [test accuracy: 0.711111 | test loss 1.014095]
+Test no. 15
+TEST RESULT [test accuracy: 0.600000 | test loss 0.024854]
+Test no. 16
+TEST RESULT [test accuracy: 0.644444 | test loss 0.066498]
+Test no. 17
+TEST RESULT [test accuracy: 0.688889 | test loss 0.005899]
+Test no. 18
+TEST RESULT [test accuracy: 0.800000 | test loss 1.013753]
+Test no. 19
+TEST RESULT [test accuracy: 0.666667 | test loss 0.325088]
+Test no. 20
+TEST RESULT [test accuracy: 0.533333 | test loss 0.115398]
+Test no. 1
+TEST RESULT [test accuracy: 0.955556 | test loss 0.001637]
+Test no. 2
+TEST RESULT [test accuracy: 0.911111 | test loss 0.689994]
+Test no. 3
+TEST RESULT [test accuracy: 0.844444 | test loss 0.130025]
+Test no. 4
+TEST RESULT [test accuracy: 1.000000 | test loss 0.012656]
+Test no. 5
+TEST RESULT [test accuracy: 0.977778 | test loss 0.008506]
+Test no. 6
+TEST RESULT [test accuracy: 0.911111 | test loss 0.112442]
+Test no. 7
+TEST RESULT [test accuracy: 0.933333 | test loss 0.009050]
+Test no. 8
+TEST RESULT [test accuracy: 0.955556 | test loss 0.061785]
+Test no. 9
+TEST RESULT [test accuracy: 0.955556 | test loss 0.005421]
+Test no. 10
+TEST RESULT [test accuracy: 0.777778 | test loss 0.997489]
+Test no. 11
+TEST RESULT [test accuracy: 0.955556 | test loss 0.001705]
+Test no. 12
+TEST RESULT [test accuracy: 0.977778 | test loss 0.314716]
+Test no. 13
+TEST RESULT [test accuracy: 0.955556 | test loss 0.020639]
+Test no. 14
+TEST RESULT [test accuracy: 0.711111 | test loss 0.043528]
+Test no. 15
+TEST RESULT [test accuracy: 0.933333 | test loss 0.181185]
+Test no. 16
+TEST RESULT [test accuracy: 0.955556 | test loss 0.028815]
+Test no. 17
+TEST RESULT [test accuracy: 0.977778 | test loss 0.010433]
+Test no. 18
+TEST RESULT [test accuracy: 0.955556 | test loss 0.002094]
+Test no. 19
+TEST RESULT [test accuracy: 0.977778 | test loss 0.501905]
+Test no. 20
+TEST RESULT [test accuracy: 0.955556 | test loss 0.052684]
+Test no. 1
+TEST RESULT [test accuracy: 0.955556 | test loss 0.000042]
+Test no. 2
+TEST RESULT [test accuracy: 0.977778 | test loss 0.842462]
+Test no. 3
+TEST RESULT [test accuracy: 0.888889 | test loss 0.161457]
+Test no. 4
+TEST RESULT [test accuracy: 0.977778 | test loss 0.007284]
+Test no. 5
+TEST RESULT [test accuracy: 1.000000 | test loss 0.000871]
+Test no. 6
+TEST RESULT [test accuracy: 0.911111 | test loss 0.000862]
+Test no. 7
+TEST RESULT [test accuracy: 0.933333 | test loss 0.002407]
+Test no. 8
+TEST RESULT [test accuracy: 0.911111 | test loss 0.039510]
+Test no. 9
+TEST RESULT [test accuracy: 0.955556 | test loss 0.001570]
+Test no. 10
+TEST RESULT [test accuracy: 0.911111 | test loss 1.133550]
+Test no. 11
+TEST RESULT [test accuracy: 0.977778 | test loss 0.000407]
+Test no. 12
+TEST RESULT [test accuracy: 0.955556 | test loss 0.007434]
+Test no. 13
+TEST RESULT [test accuracy: 0.955556 | test loss 0.014239]
+Test no. 14
+TEST RESULT [test accuracy: 1.000000 | test loss 0.001806]
+Test no. 15
+TEST RESULT [test accuracy: 0.933333 | test loss 0.022694]
+Test no. 16
+TEST RESULT [test accuracy: 0.955556 | test loss 0.015220]
+Test no. 17
+TEST RESULT [test accuracy: 0.977778 | test loss 0.005907]
+Test no. 18
+TEST RESULT [test accuracy: 0.955556 | test loss 0.000750]
+Test no. 19
+TEST RESULT [test accuracy: 0.977778 | test loss 0.021971]
+Test no. 20
+TEST RESULT [test accuracy: 0.955556 | test loss 0.304593]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
