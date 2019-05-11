@@ -2,55 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e304f1eb-d263-4b9d-8020-4906f3fbca57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/ActivationFunctionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/NetworkBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/NeuronBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/OutputResolverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/StepBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/ValidationFunctionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/DataResultTuple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/InOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/TrainData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/model/TestResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/model/TrainSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/layer/Step.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/layer/StepImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/layer/StepInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/network/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/Neuron.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/NeuronBias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/NeuronInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/NeuronNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/Synapse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/ActivationFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/FormatUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/ListUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/OutputResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/PlotUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/TestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/ValidationFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data/DataResultTupleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data/InputTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/IrisDataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/WineDataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/AutoEncoderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/NotFullyConnectedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/util/ListUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/util/VavrTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/RedWineQualityDataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.data.DataResultTupleTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.data.InputTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.data_sets.WineDataTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.old.IrisDataTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.structures.AutoEncoderTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.structures.NotFullyConnectedTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.util.ListUtilTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.util.VavrTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.stefanik36.soul_prison.data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.stefanik36.soul_prison.data_sets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.stefanik36.soul_prison.old.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.stefanik36.soul_prison.structures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.stefanik36.soul_prison.util.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.data.DataResultTupleTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.data.InputTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.data_sets.WineDataTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.old.IrisDataTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.structures.AutoEncoderTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.structures.NotFullyConnectedTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.util.ListUtilTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.util.VavrTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/DataSource.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -93,14 +78,24 @@
         <projects_view />
       </state>
     </system>
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/IrisDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="247">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,18 +104,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/NeuronNode.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/NotFullyConnectedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="2625">
+              <caret line="175" column="16" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1910#1911#0" expanded="true" />
-                <element signature="e#1944#1945#0" expanded="true" />
-                <element signature="e#3512#3513#0" expanded="true" />
-                <element signature="e#3562#3563#0" expanded="true" />
-                <element signature="e#3697#3698#0" expanded="true" />
-                <element signature="e#3729#3730#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="32" column="74" lean-forward="true" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
+              <folding>
+                <element signature="e#1376#1377#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/RedWineQualityDataTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/NetworkBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2536">
+              <caret line="218" column="26" selection-start-line="218" selection-start-column="26" selection-end-line="218" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,14 +169,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/model/TrainData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/TrainData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/InOut.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/Input.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/ListUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/DataResultTuple.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/model/TrainSummary.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/PlotUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/ActivationFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/ActivationFunctionFactory.java" />
@@ -169,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/ValidationFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/ValidationFunctionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/OutputResolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/DataSource.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data/DataResultTupleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/network/NetworkWithConnections.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/network/NetworkImpl.java" />
@@ -198,6 +216,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/network/Network.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/old/IrisDataTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/IrisDataTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/DataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/RedWineQualityDataTest.java" />
       </list>
     </option>
   </component>
@@ -244,6 +266,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="soul_prison" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Soul-Prison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Soul-Prison" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="soul_prison" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Soul-Prison" type="b2602c69:ProjectViewProjectNode" />
@@ -313,11 +344,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.stefanik36.soul_prison.data_sets" />
+      <recent name="com.stefanik36.soul_prison.source" />
       <recent name="com.stefanik36.soul_prison.old" />
       <recent name="com.stefanik36.soul_prison.util" />
       <recent name="com.stefanik36.soul_prison.network_components.network" />
-      <recent name="com.stefanik36.soul_prison.data" />
-      <recent name="com.stefanik36.soul_prison.source" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/old" />
@@ -339,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'com.stefanik36.soul_prison'">
+  <component name="RunManager" selected="Gradle.RedWineQualityDataTest.n01">
     <configuration name="IrisDataTest.irisDataSigmoidFullyConnectedByBuilder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -380,12 +411,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IrisDataTest.irisDataSigmoidWithBias" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RedWineQualityDataTest.getData01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.stefanik36.soul_prison.old.IrisDataTest.irisDataSigmoidWithBias&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.stefanik36.soul_prison.data_sets.RedWineQualityDataTest.getData01&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -400,12 +431,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IrisDataTest.irisDataSigmoidWithBiasAndMomentum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RedWineQualityDataTest.n01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.stefanik36.soul_prison.old.IrisDataTest.irisDataSigmoidWithBiasAndMomentum&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.stefanik36.soul_prison.data_sets.RedWineQualityDataTest.n01&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -442,11 +473,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RedWineQualityDataTest.n01" />
+        <item itemvalue="Gradle.RedWineQualityDataTest.getData01" />
         <item itemvalue="Gradle.Tests in 'com.stefanik36.soul_prison'" />
         <item itemvalue="Gradle.IrisDataTest.irisDataSigmoidFullyConnectedByBuilderDeleteConnection" />
         <item itemvalue="Gradle.IrisDataTest.irisDataSigmoidFullyConnectedByBuilder" />
-        <item itemvalue="Gradle.IrisDataTest.irisDataSigmoidWithBiasAndMomentum" />
-        <item itemvalue="Gradle.IrisDataTest.irisDataSigmoidWithBias" />
       </list>
     </recent_temporary>
   </component>
@@ -460,54 +491,55 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557564377158</updated>
-      <workItem from="1557564379996" duration="18315000" />
+      <workItem from="1557564379996" duration="20538000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IrisDataTest_irisDataSigmoidFullyConnectedByBuilderDeleteConnection - 2019.05.11 at 16h 39m 48s.xml">
-      <configuration name="IrisDataTest.irisDataSigmoidFullyConnectedByBuilderDeleteConnection" configurationId="GradleRunConfiguration" />
+    <history-entry file="RedWineQualityDataTest_getData01 - 2019.05.11 at 16h 59m 54s.xml">
+      <configuration name="RedWineQualityDataTest.getData01" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="IrisDataTest_irisDataSigmoidFullyConnectedByBuilderDeleteConnection - 2019.05.11 at 16h 42m 46s.xml">
-      <configuration name="IrisDataTest.irisDataSigmoidFullyConnectedByBuilderDeleteConnection" configurationId="GradleRunConfiguration" />
+    <history-entry file="RedWineQualityDataTest_getData01 - 2019.05.11 at 17h 01m 31s.xml">
+      <configuration name="RedWineQualityDataTest.getData01" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="IrisDataTest_irisDataSigmoidFullyConnectedByBuilderDeleteConnection - 2019.05.11 at 16h 42m 56s.xml">
-      <configuration name="IrisDataTest.irisDataSigmoidFullyConnectedByBuilderDeleteConnection" configurationId="GradleRunConfiguration" />
+    <history-entry file="RedWineQualityDataTest_getData01 - 2019.05.11 at 17h 03m 20s.xml">
+      <configuration name="RedWineQualityDataTest.getData01" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="IrisDataTest_irisDataSigmoidFullyConnectedByBuilderDeleteConnection - 2019.05.11 at 16h 43m 15s.xml">
-      <configuration name="IrisDataTest.irisDataSigmoidFullyConnectedByBuilderDeleteConnection" configurationId="GradleRunConfiguration" />
+    <history-entry file="RedWineQualityDataTest_getData01 - 2019.05.11 at 17h 03m 30s.xml">
+      <configuration name="RedWineQualityDataTest.getData01" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="IrisDataTest_irisDataSigmoidFullyConnectedByBuilderDeleteConnection - 2019.05.11 at 16h 43m 26s.xml">
-      <configuration name="IrisDataTest.irisDataSigmoidFullyConnectedByBuilderDeleteConnection" configurationId="GradleRunConfiguration" />
+    <history-entry file="RedWineQualityDataTest_n01 - 2019.05.11 at 17h 11m 11s.xml">
+      <configuration name="RedWineQualityDataTest.n01" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="IrisDataTest_irisDataSigmoidFullyConnectedByBuilderDeleteConnection - 2019.05.11 at 16h 44m 03s.xml">
-      <configuration name="IrisDataTest.irisDataSigmoidFullyConnectedByBuilderDeleteConnection" configurationId="GradleRunConfiguration" />
+    <history-entry file="RedWineQualityDataTest_n01 - 2019.05.11 at 17h 11m 38s.xml">
+      <configuration name="RedWineQualityDataTest.n01" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="IrisDataTest_irisDataSigmoidFullyConnectedByBuilderDeleteConnection - 2019.05.11 at 16h 44m 19s.xml">
-      <configuration name="IrisDataTest.irisDataSigmoidFullyConnectedByBuilderDeleteConnection" configurationId="GradleRunConfiguration" />
+    <history-entry file="RedWineQualityDataTest_n01 - 2019.05.11 at 17h 12m 36s.xml">
+      <configuration name="RedWineQualityDataTest.n01" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="IrisDataTest_irisDataSigmoidFullyConnectedByBuilderDeleteConnection - 2019.05.11 at 16h 44m 35s.xml">
-      <configuration name="IrisDataTest.irisDataSigmoidFullyConnectedByBuilderDeleteConnection" configurationId="GradleRunConfiguration" />
+    <history-entry file="RedWineQualityDataTest_n01 - 2019.05.11 at 17h 14m 58s.xml">
+      <configuration name="RedWineQualityDataTest.n01" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="IrisDataTest_irisDataSigmoidFullyConnectedByBuilderDeleteConnection - 2019.05.11 at 16h 44m 50s.xml">
-      <configuration name="IrisDataTest.irisDataSigmoidFullyConnectedByBuilderDeleteConnection" configurationId="GradleRunConfiguration" />
+    <history-entry file="RedWineQualityDataTest_n01 - 2019.05.11 at 17h 17m 34s.xml">
+      <configuration name="RedWineQualityDataTest.n01" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Tests_in_'com_stefanik36_soul_prison' - 2019.05.11 at 16h 49m 47s.xml">
-      <configuration name="Tests in 'com.stefanik36.soul_prison'" configurationId="GradleRunConfiguration" />
+    <history-entry file="RedWineQualityDataTest_n01 - 2019.05.11 at 17h 19m 19s.xml">
+      <configuration name="RedWineQualityDataTest.n01" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18315000" />
+    <option name="totallyTimeSpent" value="20538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1680" height="1052" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2760098" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2760098" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -518,28 +550,32 @@
       <window_info anchor="bottom" id="Build" order="6" weight="0.32827735" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.3336945" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.3336945" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.46695557" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="sbt" order="1" />
+      <window_info anchor="right" id="sbt" order="1" weight="0.32986537" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" x="0" y="0" width="370" height="852" id="Documentation" order="3" side_tool="true" weight="0.32986537" />
-      <window_info anchor="right" id="Gradle" order="4" />
-      <window_info anchor="right" id="SciView" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="10" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="11" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.249694" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="11" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="12" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/InOut.java">
@@ -558,16 +594,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/model/TrainSummary.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/PlotUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -612,16 +638,6 @@
             <element signature="e#1346#1347#0" expanded="true" />
             <element signature="e#1703#1704#0" expanded="true" />
             <element signature="e#1757#1758#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -699,16 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3846">
           <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/NotFullyConnectedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="175" column="16" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,16 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/NetworkBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/network/Network.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
@@ -924,11 +920,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/IrisDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="247">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/NotFullyConnectedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="175" column="16" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="74" lean-forward="true" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
+          <folding>
+            <element signature="e#1376#1377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.opencsv/opencsv/4.5/d22177e7b17cbef5d03b825d1e0b9355d3ac0fe0/opencsv-4.5-sources.jar!/com/opencsv/CSVReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="87" column="53" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="358" column="5" selection-start-line="358" selection-start-column="5" selection-end-line="358" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#38164#38165#0" expanded="true" />
+            <element signature="e#38221#38222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/NetworkBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2536">
+          <caret line="218" column="26" selection-start-line="218" selection-start-column="26" selection-end-line="218" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/RedWineQualityDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
         </state>
       </provider>
     </entry>

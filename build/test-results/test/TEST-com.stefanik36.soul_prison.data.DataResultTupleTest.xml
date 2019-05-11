@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.stefanik36.soul_prison.data.DataResultTupleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-11T14:48:37" hostname="daniel-Lenovo" time="0.0">
-  <properties/>
-  <testcase name="getClassificationResult" classname="com.stefanik36.soul_prison.data.DataResultTupleTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

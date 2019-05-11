@@ -7,6 +7,7 @@ public class DataSource {
     /**
      * classification (1.0, 2.0, 3.0)
      * 4 parameters
+     *
      * @return set of in out Iris data
      */
     public static List<DataResultTuple> getIrisData() {
@@ -167,6 +168,7 @@ public class DataSource {
     /**
      * classification (1.0, 2.0, 3.0)
      * 13 parameters
+     *
      * @return set of in out Wine data
      */
     public static List<DataResultTuple> getWineData() {
@@ -350,6 +352,10 @@ public class DataSource {
                 new DataResultTuple(3.0, List.of(13.17, 2.59, 2.37, 20, 120, 1.65, .68, .53, 1.46, 9.3, .6, 1.62, 840).map(Number::doubleValue)),
                 new DataResultTuple(3.0, List.of(14.13, 4.1, 2.74, 24.5, 96, 2.05, .76, .56, 1.35, 9.2, .61, 1.6, 560).map(Number::doubleValue))
         );
+    }
+
+    public static List<DataResultTuple> getRedWineQualityData() {
+        return new RedWineQualityData().getData();
     }
 
 

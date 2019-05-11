@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.stefanik36.soul_prison.util.VavrTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-05-11T14:44:53" hostname="daniel-Lenovo" time="0.027">
-  <properties/>
-  <testcase name="dropRight" classname="com.stefanik36.soul_prison.util.VavrTest" time="0.025"/>
-  <testcase name="foldLeft" classname="com.stefanik36.soul_prison.util.VavrTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
