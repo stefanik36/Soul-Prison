@@ -1,2 +1,2 @@
 # Soul-Prison
-From scratch implementation of artificial neural network in Java language.
+Implementation of artificial neural network from scratch in Java language.
