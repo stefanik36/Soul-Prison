@@ -16,7 +16,7 @@ public class RedWineQualityData {
     public RedWineQualityData() {
         this.data = List.empty();
         try (CSVReader csvReader = new CSVReaderBuilder(
-                new FileReader("src/main/examples/wine-quality-red.csv"))
+                new FileReader("src/main/resources/data/wine-quality-red.csv"))
                 .withCSVParser(new CSVParserBuilder().withSeparator(';').build())
                 .build()
         ) {

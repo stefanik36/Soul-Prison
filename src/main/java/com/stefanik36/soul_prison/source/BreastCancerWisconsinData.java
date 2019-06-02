@@ -17,7 +17,7 @@ public class BreastCancerWisconsinData {
     public BreastCancerWisconsinData() {
         this.data = List.empty();
         try (CSVReader csvReader = new CSVReaderBuilder(
-                new FileReader("src/main/examples/Breast-Cancer-Wisconsin.csv"))
+                new FileReader("src/main/resources/data/Breast-Cancer-Wisconsin.csv"))
                 .withCSVParser(new CSVParserBuilder().withSeparator(';').build())
                 .build()
         ) {
@@ -41,7 +41,7 @@ public class BreastCancerWisconsinData {
         }
     }
     /**
-     * 0 to 0 changed
+     * ? to 0 changed
      *
      * @return BreastCancerWisconsinData
      */
