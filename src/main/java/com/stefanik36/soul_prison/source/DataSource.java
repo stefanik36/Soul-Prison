@@ -7,7 +7,7 @@ public class DataSource {
     /**
      * classification (1.0, 2.0, 3.0)
      * 4 parameters
-     *
+     * 150 instances
      * @return set of in out Iris data
      */
     public static List<DataResultTuple> getIrisData() {
@@ -168,7 +168,7 @@ public class DataSource {
     /**
      * classification (1.0, 2.0, 3.0)
      * 13 parameters
-     *
+     * 178 instances
      * @return set of in out Wine data
      */
     public static List<DataResultTuple> getWineData() {
@@ -354,10 +354,23 @@ public class DataSource {
         );
     }
 
+    /**
+     * classification (3.0, 4.0, 5.0, 6.0, 7.0, 8.0)
+     * 11 parameters
+     * 1599 instances
+     * @return set of in out Red Wine Quality Data
+     */
     public static List<DataResultTuple> getRedWineQualityData() {
         return new RedWineQualityData().getData();
     }
+    /**
+     * classification (2.0, 4.0)
+     * 9 parameters
+     * 699 instances
+     * @return set of in out Breast Cancer Wisconsin Data
+     */
+    public static List<DataResultTuple> getBreastCancerWisconsinData() {
+        return new BreastCancerWisconsinData().getData();
+    }
 
-
-//    "fixed acidity";"volatile acidity";"citric acid";"residual sugar";"chlorides";"free sulfur dioxide";"total sulfur dioxide";"density";"pH";"sulphates";"alcohol";"quality"
 }

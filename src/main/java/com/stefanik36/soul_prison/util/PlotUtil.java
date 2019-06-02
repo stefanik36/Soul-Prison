@@ -6,7 +6,11 @@ import io.vavr.collection.List;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartFrame;
 import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.CategoryPlot;
+import org.jfree.chart.plot.XYPlot;
 import org.jfree.data.category.DefaultCategoryDataset;
+
+import java.awt.*;
 
 public class PlotUtil {
 
@@ -41,6 +45,12 @@ public class PlotUtil {
                 objDataset
         );
 
+        CategoryPlot plot = objChart.getCategoryPlot();
+        // here we change the line size
+        int seriesCount = plot.getDataset().getRowCount();
+        for (int i = 0; i < seriesCount; i++) {
+            plot.getRenderer().setSeriesStroke(i, new BasicStroke(4));
+        }
         ChartFrame frame = new ChartFrame("Demo", objChart);
         frame.pack();
         frame.setVisible(true);

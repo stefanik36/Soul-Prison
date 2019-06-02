@@ -2,44 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e304f1eb-d263-4b9d-8020-4906f3fbca57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/RedWineQualityDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/BreastCancerWisconsinData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/BreastCancerWisconsinDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.data.DataResultTupleTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.data.InputTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.data_sets.WineDataTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.old.IrisDataTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.structures.AutoEncoderTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.structures.NotFullyConnectedTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.util.ListUtilTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stefanik36.soul_prison.util.VavrTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.stefanik36.soul_prison.data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.stefanik36.soul_prison.data_sets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.stefanik36.soul_prison.old.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.stefanik36.soul_prison.structures.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.stefanik36.soul_prison.util.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.data.DataResultTupleTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.data.InputTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.data_sets.WineDataTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.old.IrisDataTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.structures.AutoEncoderTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.structures.NotFullyConnectedTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.util.ListUtilTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stefanik36.soul_prison.util.VavrTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/TrainData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/TrainData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/network/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/network/Network.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/NeuronNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/NeuronNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/DataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/PlotUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/PlotUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/IrisDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/IrisDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/RedWineQualityDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/RedWineQualityDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/WineDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/WineDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/AutoEncoderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/AutoEncoderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/NotFullyConnectedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/NotFullyConnectedTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +51,7 @@
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -90,12 +79,45 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/IrisDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="423">
+              <caret line="282" column="18" selection-start-line="282" selection-start-column="10" selection-end-line="282" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/BreastCancerWisconsinDataTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-210">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/WineDataTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/network/Network.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="163" column="18" lean-forward="true" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/NotFullyConnectedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2625">
-              <caret line="175" column="16" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="16" />
+            <state relative-caret-position="220">
+              <caret line="114" column="34" lean-forward="true" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,22 +138,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/AutoEncoderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="32" column="74" lean-forward="true" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
+            <state relative-caret-position="198">
+              <caret line="398" lean-forward="true" selection-start-line="398" selection-end-line="398" />
               <folding>
-                <element signature="e#1376#1377#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/RedWineQualityDataTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -139,11 +152,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/NetworkBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2536">
-              <caret line="218" column="26" selection-start-line="218" selection-start-column="26" selection-end-line="218" selection-end-column="26" />
+            <state relative-caret-position="1380">
+              <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/StepBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2868#2869#0" expanded="true" />
+                <element signature="e#2912#2913#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/model/TrainSummary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding>
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/RedWineQualityDataTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="168" column="26" lean-forward="true" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -161,6 +210,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>test accuracy</find>
+      <find>2.0</find>
+      <find>4.0</find>
+      <find>?</find>
+      <find>normali</find>
+      <find>acti</find>
+      <find>XOR</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,12 +224,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/InOut.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/Input.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/ListUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/DataResultTuple.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/model/TrainSummary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/PlotUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/ActivationFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/ActivationFunctionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network/neuron/NeuronConnection.java" />
@@ -194,16 +244,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data/InputTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/util/ListUtilTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/util/VavrTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/AutoEncoderTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/NotFullyConnectedTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/old/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/TestUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/TrainData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/NetworkBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/TestUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/OutputResolverFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/old/WineDataTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/WineDataTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/layer/Step.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/layer/StepImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/layer/StepInput.java" />
@@ -211,14 +256,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/NeuronBias.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/NeuronBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/NeuronInput.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/NeuronNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/StepBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/network/Network.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/old/IrisDataTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/IrisDataTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/DataSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/NeuronNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/BreastCancerWisconsinData.java" />
+        <option value="$PROJECT_DIR$/src/main/examples/Breast-Cancer-Wisconsin.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/TestUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/Input.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/DataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/network/Network.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/TrainData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/BreastCancerWisconsinDataTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/PlotUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/WineDataTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/NotFullyConnectedTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/IrisDataTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/AutoEncoderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/RedWineQualityDataTest.java" />
       </list>
     </option>
@@ -257,6 +312,13 @@
               <item name="Soul-Prison" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Soul-Prison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Soul-Prison" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,7 +336,26 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="soul_prison" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Soul-Prison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Soul-Prison" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="soul_prison" type="462c0819:PsiDirectoryNode" />
+              <item name="network_components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Soul-Prison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Soul-Prison" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="soul_prison" type="462c0819:PsiDirectoryNode" />
+              <item name="network_components" type="462c0819:PsiDirectoryNode" />
+              <item name="neuron" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Soul-Prison" type="b2602c69:ProjectViewProjectNode" />
@@ -313,14 +394,41 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="soul_prison" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Soul-Prison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Soul-Prison" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="soul_prison" type="462c0819:PsiDirectoryNode" />
               <item name="data_sets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Soul-Prison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Soul-Prison" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="soul_prison" type="462c0819:PsiDirectoryNode" />
+              <item name="structures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Soul-Prison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Soul-Prison" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="soul_prison" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,7 +437,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/old" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Associative-Graph-Data-Structure" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -351,11 +460,11 @@
       <recent name="com.stefanik36.soul_prison.network_components.network" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/examples" />
       <recent name="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/old" />
       <recent name="$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures" />
       <recent name="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network/neuron" />
       <recent name="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -370,114 +479,92 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.RedWineQualityDataTest.n01">
-    <configuration name="IrisDataTest.irisDataSigmoidFullyConnectedByBuilder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.stefanik36.soul_prison.old.IrisDataTest.irisDataSigmoidFullyConnectedByBuilder&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.BreastCancerWisconsinDataTest.n01">
+    <configuration name="AutoEncoderTest.wineDataAutoEncoderFreezeWeightsAddedToNetwork01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Soul-Prison.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stefanik36.soul_prison.structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stefanik36.soul_prison.structures" />
+      <option name="MAIN_CLASS_NAME" value="com.stefanik36.soul_prison.structures.AutoEncoderTest" />
+      <option name="METHOD_NAME" value="wineDataAutoEncoderFreezeWeightsAddedToNetwork01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="IrisDataTest.irisDataSigmoidFullyConnectedByBuilderDeleteConnection" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.stefanik36.soul_prison.old.IrisDataTest.irisDataSigmoidFullyConnectedByBuilderDeleteConnection&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="AutoEncoderTest.wineDataAutoEncoderFreezeWeightsAddedToNetwork02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Soul-Prison.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stefanik36.soul_prison.structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stefanik36.soul_prison.structures" />
+      <option name="MAIN_CLASS_NAME" value="com.stefanik36.soul_prison.structures.AutoEncoderTest" />
+      <option name="METHOD_NAME" value="wineDataAutoEncoderFreezeWeightsAddedToNetwork02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="RedWineQualityDataTest.getData01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.stefanik36.soul_prison.data_sets.RedWineQualityDataTest.getData01&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="BreastCancerWisconsinDataTest.n01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Soul-Prison.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stefanik36.soul_prison.data_sets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stefanik36.soul_prison.data_sets" />
+      <option name="MAIN_CLASS_NAME" value="com.stefanik36.soul_prison.data_sets.BreastCancerWisconsinDataTest" />
+      <option name="METHOD_NAME" value="n01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="RedWineQualityDataTest.n01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.stefanik36.soul_prison.data_sets.RedWineQualityDataTest.n01&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="RedWineQualityDataTest.n04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Soul-Prison.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stefanik36.soul_prison.data_sets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stefanik36.soul_prison.data_sets" />
+      <option name="MAIN_CLASS_NAME" value="com.stefanik36.soul_prison.data_sets.RedWineQualityDataTest" />
+      <option name="METHOD_NAME" value="n04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Tests in 'com.stefanik36.soul_prison'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.stefanik36.soul_prison.*&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="com.stefanik36.soul_prison in Soul-Prison.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Soul-Prison.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stefanik36.soul_prison.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stefanik36.soul_prison" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RedWineQualityDataTest.n01" />
-        <item itemvalue="Gradle.RedWineQualityDataTest.getData01" />
-        <item itemvalue="Gradle.Tests in 'com.stefanik36.soul_prison'" />
-        <item itemvalue="Gradle.IrisDataTest.irisDataSigmoidFullyConnectedByBuilderDeleteConnection" />
-        <item itemvalue="Gradle.IrisDataTest.irisDataSigmoidFullyConnectedByBuilder" />
+        <item itemvalue="JUnit.BreastCancerWisconsinDataTest.n01" />
+        <item itemvalue="JUnit.RedWineQualityDataTest.n04" />
+        <item itemvalue="JUnit.com.stefanik36.soul_prison in Soul-Prison.test" />
+        <item itemvalue="JUnit.AutoEncoderTest.wineDataAutoEncoderFreezeWeightsAddedToNetwork01" />
+        <item itemvalue="JUnit.AutoEncoderTest.wineDataAutoEncoderFreezeWeightsAddedToNetwork02" />
       </list>
     </recent_temporary>
   </component>
@@ -491,44 +578,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557564377158</updated>
-      <workItem from="1557564379996" duration="20538000" />
+      <workItem from="1557564379996" duration="20599000" />
+      <workItem from="1557688547294" duration="34000" />
+      <workItem from="1557912436336" duration="852000" />
+      <workItem from="1557932722690" duration="613000" />
+      <workItem from="1558552737290" duration="2753000" />
+      <workItem from="1559397231658" duration="1176000" />
+      <workItem from="1559399501708" duration="301000" />
+      <workItem from="1559399854197" duration="15620000" />
+      <workItem from="1559468907535" duration="17682000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RedWineQualityDataTest_getData01 - 2019.05.11 at 16h 59m 54s.xml">
-      <configuration name="RedWineQualityDataTest.getData01" configurationId="GradleRunConfiguration" />
+    <history-entry file="AutoEncoderTest_wineDataAutoEncoderFreezeWeightsAddedToNetwork01 - 2019.06.02 at 17h 39m 09s.xml">
+      <configuration name="AutoEncoderTest.wineDataAutoEncoderFreezeWeightsAddedToNetwork01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedWineQualityDataTest_getData01 - 2019.05.11 at 17h 01m 31s.xml">
-      <configuration name="RedWineQualityDataTest.getData01" configurationId="GradleRunConfiguration" />
+    <history-entry file="AutoEncoderTest_wineDataAutoEncoderFreezeWeightsAddedToNetwork01 - 2019.06.02 at 17h 40m 25s.xml">
+      <configuration name="AutoEncoderTest.wineDataAutoEncoderFreezeWeightsAddedToNetwork01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedWineQualityDataTest_getData01 - 2019.05.11 at 17h 03m 20s.xml">
-      <configuration name="RedWineQualityDataTest.getData01" configurationId="GradleRunConfiguration" />
+    <history-entry file="AutoEncoderTest_wineDataAutoEncoderFreezeWeightsAddedToNetwork02 - 2019.06.02 at 17h 41m 09s.xml">
+      <configuration name="AutoEncoderTest.wineDataAutoEncoderFreezeWeightsAddedToNetwork02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedWineQualityDataTest_getData01 - 2019.05.11 at 17h 03m 30s.xml">
-      <configuration name="RedWineQualityDataTest.getData01" configurationId="GradleRunConfiguration" />
+    <history-entry file="AutoEncoderTest_wineDataAutoEncoderFreezeWeightsAddedToNetwork02 - 2019.06.02 at 17h 41m 50s.xml">
+      <configuration name="AutoEncoderTest.wineDataAutoEncoderFreezeWeightsAddedToNetwork02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedWineQualityDataTest_n01 - 2019.05.11 at 17h 11m 11s.xml">
-      <configuration name="RedWineQualityDataTest.n01" configurationId="GradleRunConfiguration" />
+    <history-entry file="AutoEncoderTest_wineDataAutoEncoderFreezeWeightsAddedToNetwork01 - 2019.06.02 at 18h 10m 10s.xml">
+      <configuration name="AutoEncoderTest.wineDataAutoEncoderFreezeWeightsAddedToNetwork01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedWineQualityDataTest_n01 - 2019.05.11 at 17h 11m 38s.xml">
-      <configuration name="RedWineQualityDataTest.n01" configurationId="GradleRunConfiguration" />
+    <history-entry file="com_stefanik36_soul_prison_in_Soul-Prison_test - 2019.06.02 at 18h 15m 21s.xml">
+      <configuration name="com.stefanik36.soul_prison in Soul-Prison.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedWineQualityDataTest_n01 - 2019.05.11 at 17h 12m 36s.xml">
-      <configuration name="RedWineQualityDataTest.n01" configurationId="GradleRunConfiguration" />
+    <history-entry file="com_stefanik36_soul_prison_in_Soul-Prison_test - 2019.06.02 at 18h 35m 10s.xml">
+      <configuration name="com.stefanik36.soul_prison in Soul-Prison.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedWineQualityDataTest_n01 - 2019.05.11 at 17h 14m 58s.xml">
-      <configuration name="RedWineQualityDataTest.n01" configurationId="GradleRunConfiguration" />
+    <history-entry file="RedWineQualityDataTest_n04 - 2019.06.02 at 19h 09m 56s.xml">
+      <configuration name="RedWineQualityDataTest.n04" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedWineQualityDataTest_n01 - 2019.05.11 at 17h 17m 34s.xml">
-      <configuration name="RedWineQualityDataTest.n01" configurationId="GradleRunConfiguration" />
+    <history-entry file="RedWineQualityDataTest_n04 - 2019.06.02 at 19h 13m 16s.xml">
+      <configuration name="RedWineQualityDataTest.n04" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedWineQualityDataTest_n01 - 2019.05.11 at 17h 19m 19s.xml">
-      <configuration name="RedWineQualityDataTest.n01" configurationId="GradleRunConfiguration" />
+    <history-entry file="BreastCancerWisconsinDataTest_n01 - 2019.06.02 at 19h 14m 01s.xml">
+      <configuration name="BreastCancerWisconsinDataTest.n01" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20538000" />
+    <option name="totallyTimeSpent" value="59630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1680" height="1052" extended-state="6" />
@@ -539,10 +634,10 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2760098" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.30783352" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
@@ -550,11 +645,12 @@
       <window_info anchor="bottom" id="Build" order="6" weight="0.32827735" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.3336945" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.46695557" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.3488624" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.39761648" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32936078" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="sbt" order="1" weight="0.32986537" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -577,154 +673,38 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>plot.get</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>plot.getRangeAxisCount()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>plot.getRendererCount()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>plot.getDomainCrosshairColumnKey()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>plot.getCrosshairDatasetIndex()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/InOut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/FormatUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/model/TrainSummary.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/PlotUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/ActivationFunction.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/Synapse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/ValidationFunction.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/OutputResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1703#1704#0" expanded="true" />
-            <element signature="e#1757#1758#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/DataResultTuple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data/DataResultTupleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/network/NetworkImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/function/Function.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/Input.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data/InputTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/util/ListUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/util/VavrTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/AutoEncoderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/old/RedWineQualityDataTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/old/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3846">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/ValidationFunctionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/old/RedWineQualityDataTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/old/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/model/TestResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -739,57 +719,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/TrainData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/ActivationFunctionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/OutputResolverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/WineDataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="47" column="73" lean-forward="true" selection-start-line="31" selection-end-line="47" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/layer/StepImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2185#2186#0" expanded="true" />
-            <element signature="e#2212#2213#0" expanded="true" />
-            <element signature="e#2485#2486#0" expanded="true" />
-            <element signature="e#2513#2514#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -812,13 +747,6 @@
             <element signature="e#1282#1283#0" expanded="true" />
             <element signature="e#1314#1315#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/Neuron.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -868,44 +796,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/TestUtil.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.opencsv/opencsv/4.5/d22177e7b17cbef5d03b825d1e0b9355d3ac0fe0/opencsv-4.5-sources.jar!/com/opencsv/CSVReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="151">
+          <caret line="87" column="53" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/StepBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/layer/StepImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="124" column="44" lean-forward="true" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+        <state relative-caret-position="90">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2868#2869#0" expanded="true" />
-            <element signature="e#2912#2913#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/network/Network.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="201" column="34" selection-start-line="201" selection-start-column="34" selection-end-line="201" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6392#6393#0" expanded="true" />
-            <element signature="e#6462#6463#0" expanded="true" />
+            <element signature="e#2185#2186#0" expanded="true" />
+            <element signature="e#2212#2213#0" expanded="true" />
+            <element signature="e#2485#2486#0" expanded="true" />
+            <element signature="e#2517#2518#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/NeuronNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="1560">
+          <caret line="122" column="5" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1910#1911#0" expanded="true" />
@@ -914,14 +829,878 @@
             <element signature="e#3562#3563#0" expanded="true" />
             <element signature="e#3697#3698#0" expanded="true" />
             <element signature="e#3729#3730#0" expanded="true" />
+            <element signature="e#3854#3855#0" expanded="true" />
+            <element signature="e#3889#3890#0" expanded="true" />
+            <element signature="e#3945#3946#0" expanded="true" />
+            <element signature="e#3993#3994#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/util/ListUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/util/VavrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/examples/Breast-Cancer-Wisconsin.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="130">
+          <caret line="591" column="21" lean-forward="true" selection-start-line="591" selection-start-column="21" selection-end-line="591" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/examples/wine-quality-red.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data/InputTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/BreastCancerWisconsinData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.stefanik36.soul_prison.network_components.network.Network">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.stefanik36.soul_prison.network_components.network.Network</OriginalElement>
+          <nodes>
+            <node x="2336.0887873943793" y="136.0">com.stefanik36.soul_prison.source.RedWineQualityData</node>
+            <node x="1951.0887873943796" y="272.0">com.stefanik36.soul_prison.model.TestResult</node>
+            <node x="364.9582131318973" y="428.0">com.stefanik36.soul_prison.builder.NeuronBuilder</node>
+            <node x="10.5" y="272.0">com.stefanik36.soul_prison.builder.ActivationFunctionFactory</node>
+            <node x="1547.0134997312628" y="136.0">com.stefanik36.soul_prison.data.Input</node>
+            <node x="374.4658119658119" y="272.0">com.stefanik36.soul_prison.network_components.neuron.NeuronNode</node>
+            <node x="130.6646525258368" y="136.0">com.stefanik36.soul_prison.util.ActivationFunction</node>
+            <node x="2095.0887873943793" y="136.0">com.stefanik36.soul_prison.source.BreastCancerWisconsinData</node>
+            <node x="1535.7655849267687" y="272.0">com.stefanik36.soul_prison.data.InOut</node>
+            <node x="623.1138660316294" y="0.0">com.stefanik36.soul_prison.network_components.neuron.Neuron</node>
+            <node x="1902.797120727713" y="428.0">com.stefanik36.soul_prison.util.PlotUtil</node>
+            <node x="1683.255454061046" y="916.0">com.stefanik36.soul_prison.util.TestUtil</node>
+            <node x="923.6856509840065" y="272.0">com.stefanik36.soul_prison.network_components.layer.Step</node>
+            <node x="448.4658119658119" y="136.0">com.stefanik36.soul_prison.network_components.neuron.Synapse</node>
+            <node x="1665.0887873943796" y="272.0">com.stefanik36.soul_prison.util.ListUtil</node>
+            <node x="2060.4301663979295" y="0.0">com.stefanik36.soul_prison.data.DataResultTuple</node>
+            <node x="639.8233112039035" y="684.0">com.stefanik36.soul_prison.builder.StepBuilder</node>
+            <node x="1581.8521783893498" y="684.0">com.stefanik36.soul_prison.network_components.network.Network</node>
+            <node x="933.0066445372366" y="830.0">com.stefanik36.soul_prison.builder.NetworkBuilder</node>
+            <node x="1311.7463980463979" y="428.0">com.stefanik36.soul_prison.util.FormatUtil</node>
+            <node x="2087.0887873943793" y="272.0">com.stefanik36.soul_prison.source.DataSource</node>
+            <node x="1504.2655849267687" y="428.0">com.stefanik36.soul_prison.util.OutputResolver</node>
+            <node x="1801.0887873943796" y="272.0">com.stefanik36.soul_prison.model.TrainSummary</node>
+            <node x="847.7063568741203" y="428.0">com.stefanik36.soul_prison.network_components.layer.StepImpl</node>
+            <node x="994.8587378265008" y="684.0">com.stefanik36.soul_prison.builder.ValidationFunctionFactory</node>
+            <node x="717.7063568741203" y="428.0">com.stefanik36.soul_prison.network_components.layer.StepInput</node>
+            <node x="535.7158119658119" y="272.0">com.stefanik36.soul_prison.network_components.neuron.NeuronInput</node>
+            <node x="1668.2655849267687" y="428.0">com.stefanik36.soul_prison.data.TrainData</node>
+            <node x="1358.192071159834" y="684.0">com.stefanik36.soul_prison.builder.OutputResolverFactory</node>
+            <node x="1119.7463980463979" y="428.0">com.stefanik36.soul_prison.util.ValidationFunction</node>
+            <node x="689.1773504273505" y="272.0">com.stefanik36.soul_prison.network_components.neuron.NeuronBias</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.stefanik36.soul_prison.data.TrainData" target="com.stefanik36.soul_prison.data.Input">
+              <point x="27.25" y="-13.0" />
+              <point x="1750.0155849267687" y="358.0" />
+              <point x="1777.5887873943796" y="358.0" />
+              <point x="1777.5887873943796" y="252.0" />
+              <point x="1623.5134997312628" y="252.0" />
+              <point x="36.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NeuronBuilder" target="com.stefanik36.soul_prison.network_components.neuron.NeuronBias">
+              <point x="49.81818181818181" y="-13.0" />
+              <point x="483.27639495007907" y="398.0" />
+              <point x="698.8440170940171" y="398.0" />
+              <point x="-48.33333333333337" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.util.TestUtil" target="com.stefanik36.soul_prison.network_components.network.Network">
+              <point x="-20.40000000000009" y="-13.0" />
+              <point x="1713.855454061046" y="886.0" />
+              <point x="1596.2352159658083" y="886.0" />
+              <point x="1596.2352159658083" y="790.0" />
+              <point x="1661.0188450560163" y="790.0" />
+              <point x="31.666666666666742" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.source.DataSource" target="com.stefanik36.soul_prison.source.RedWineQualityData">
+              <point x="43.5" y="-13.0" />
+              <point x="2188.5887873943793" y="252.0" />
+              <point x="2422.0887873943793" y="252.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.network.Network" target="com.stefanik36.soul_prison.network_components.layer.Step">
+              <point x="-13.571428571428669" y="-13.0" />
+              <point x="1615.7807498179209" y="554.0" />
+              <point x="1453.3965373077212" y="554.0" />
+              <point x="1453.3965373077212" y="398.0" />
+              <point x="991.5189843173399" y="398.0" />
+              <point x="30.83333333333337" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.network.Network" target="com.stefanik36.soul_prison.model.TestResult">
+              <point x="36.19047619047615" y="-13.0" />
+              <point x="1665.542654579826" y="644.0" />
+              <point x="2026.0649778705701" y="644.0" />
+              <point x="2026.0649778705701" y="408.0" />
+              <point x="2001.8387873943796" y="408.0" />
+              <point x="-7.25" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.StepBuilder" target="com.stefanik36.soul_prison.builder.NeuronBuilder">
+              <point x="-28.38461538461536" y="-13.0" />
+              <point x="672.9386958192881" y="634.0" />
+              <point x="433.4582131318973" y="634.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.StepBuilder" target="com.stefanik36.soul_prison.network_components.layer.Step">
+              <point x="28.38461538461536" y="-13.0" />
+              <point x="729.7079265885188" y="634.0" />
+              <point x="837.2063568741203" y="634.0" />
+              <point x="837.2063568741203" y="388.0" />
+              <point x="942.1856509840065" y="388.0" />
+              <point x="-18.5" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.source.BreastCancerWisconsinData" target="com.stefanik36.soul_prison.data.DataResultTuple">
+              <point x="-73.66666666666674" y="-13.0" />
+              <point x="2131.922120727713" y="116.0" />
+              <point x="2128.3801663979293" y="116.0" />
+              <point x="-7.5499999999999545" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NetworkBuilder" target="com.stefanik36.soul_prison.network_components.layer.StepImpl">
+              <point x="-19.199999999999932" y="-13.0" />
+              <point x="985.8066445372367" y="760.0" />
+              <point x="898.7063568741203" y="760.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.neuron.NeuronNode" target="com.stefanik36.soul_prison.network_components.neuron.Neuron">
+              <point x="9.666666666666629" y="-13.0" />
+              <point x="442.1324786324785" y="252.0" />
+              <point x="437.9658119658119" y="252.0" />
+              <point x="437.9658119658119" y="86.0" />
+              <point x="643.6471993649627" y="86.0" />
+              <point x="-23.466666666666697" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.network.Network" target="com.stefanik36.soul_prison.network_components.neuron.Neuron">
+              <point x="-9.047619047619037" y="-13.0" />
+              <point x="1620.3045593417305" y="544.0" />
+              <point x="1463.9917754029593" y="544.0" />
+              <point x="1463.9917754029593" y="46.0" />
+              <point x="708.180532698296" y="46.0" />
+              <point x="41.066666666666606" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.StepBuilder" target="com.stefanik36.soul_prison.util.ActivationFunction">
+              <point x="-47.30769230769238" y="-13.0" />
+              <point x="654.0156188962111" y="654.0" />
+              <point x="264.5769230769231" y="654.0" />
+              <point x="264.5769230769231" y="232.0" />
+              <point x="216.6646525258368" y="232.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.layer.StepImpl" target="com.stefanik36.soul_prison.data.Input">
+              <point x="43.714285714285666" y="-13.0" />
+              <point x="942.4206425884059" y="408.0" />
+              <point x="1475.7179658791497" y="408.0" />
+              <point x="1475.7179658791497" y="192.0" />
+              <point x="1560.5134997312628" y="192.0" />
+              <point x="-27.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.layer.StepImpl" target="com.stefanik36.soul_prison.network_components.neuron.NeuronBias">
+              <point x="-29.14285714285711" y="-13.0" />
+              <point x="869.5634997312632" y="338.0" />
+              <point x="776.1773504273505" y="338.0" />
+              <point x="29.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NetworkBuilder" target="com.stefanik36.soul_prison.network_components.layer.Step">
+              <point x="-9.599999999999909" y="-13.0" />
+              <point x="995.4066445372367" y="750.0" />
+              <point x="965.158737826501" y="750.0" />
+              <point x="965.158737826501" y="398.0" />
+              <point x="966.8523176506732" y="398.0" />
+              <point x="6.166666666666629" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.network.Network" target="com.stefanik36.soul_prison.model.TrainSummary">
+              <point x="27.14285714285711" y="-13.0" />
+              <point x="1656.4950355322067" y="624.0" />
+              <point x="1876.003680164864" y="624.0" />
+              <point x="10.833333333333258" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.network.Network" target="com.stefanik36.soul_prison.util.ValidationFunction">
+              <point x="-18.095238095238074" y="-13.0" />
+              <point x="1611.2569402941117" y="564.0" />
+              <point x="1274.5463980463978" y="564.0" />
+              <point x="68.79999999999995" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.StepBuilder" target="com.stefanik36.soul_prison.network_components.neuron.NeuronNode">
+              <point x="-37.84615384615381" y="-13.0" />
+              <point x="663.4771573577497" y="644.0" />
+              <point x="354.4582131318973" y="644.0" />
+              <point x="354.4582131318973" y="408.0" />
+              <point x="388.9658119658119" y="408.0" />
+              <point x="-43.5" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.StepBuilder" target="com.stefanik36.soul_prison.network_components.layer.StepImpl">
+              <point x="56.76923076923072" y="-13.0" />
+              <point x="758.0925419731342" y="664.0" />
+              <point x="884.1349283026917" y="664.0" />
+              <point x="-14.571428571428555" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.data.TrainData" target="com.stefanik36.soul_prison.util.ListUtil">
+              <point x="9.083333333333485" y="-13.0" />
+              <point x="1731.8489182601022" y="338.0" />
+              <point x="1716.0887873943796" y="338.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NetworkBuilder" target="com.stefanik36.soul_prison.util.ActivationFunction">
+              <point x="-67.19999999999993" y="-13.0" />
+              <point x="937.8066445372367" y="810.0" />
+              <point x="0.0" y="810.0" />
+              <point x="0.0" y="242.0" />
+              <point x="140.22020808139234" y="242.0" />
+              <point x="-76.44444444444446" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.util.TestUtil" target="com.stefanik36.soul_prison.model.TestResult">
+              <point x="40.799999999999955" y="-13.0" />
+              <point x="1775.055454061046" y="896.0" />
+              <point x="2073.358442069626" y="896.0" />
+              <point x="2073.358442069626" y="398.0" />
+              <point x="2059.8387873943793" y="398.0" />
+              <point x="50.75" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.data.Input" target="com.stefanik36.soul_prison.data.DataResultTuple">
+              <point x="0.0" y="-13.0" />
+              <point x="1587.5134997312628" y="86.0" />
+              <point x="2067.9801663979297" y="86.0" />
+              <point x="-67.95000000000005" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.layer.StepInput" target="com.stefanik36.soul_prison.network_components.neuron.NeuronBias">
+              <point x="-15.571428571428555" y="-13.0" />
+              <point x="756.6349283026917" y="368.0" />
+              <point x="737.5106837606838" y="368.0" />
+              <point x="-9.666666666666629" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.util.OutputResolver" target="com.stefanik36.soul_prison.data.InOut">
+              <point x="0.0" y="-13.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.StepBuilder" target="com.stefanik36.soul_prison.network_components.neuron.Synapse">
+              <point x="-18.923076923076906" y="-13.0" />
+              <point x="682.4002342808266" y="624.0" />
+              <point x="525.2158119658119" y="624.0" />
+              <point x="525.2158119658119" y="252.0" />
+              <point x="531.5908119658119" y="252.0" />
+              <point x="35.625" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.layer.StepInput" target="com.stefanik36.soul_prison.data.Input">
+              <point x="31.14285714285711" y="-13.0" />
+              <point x="803.3492140169774" y="368.0" />
+              <point x="849.5106837606837" y="368.0" />
+              <point x="849.5106837606837" y="182.0" />
+              <point x="1551.5134997312628" y="182.0" />
+              <point x="-36.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NeuronBuilder" target="com.stefanik36.soul_prison.network_components.neuron.Neuron">
+              <point x="-24.909090909090878" y="-13.0" />
+              <point x="408.54912222280643" y="368.0" />
+              <point x="363.9658119658119" y="368.0" />
+              <point x="363.9658119658119" y="66.0" />
+              <point x="631.9138660316294" y="66.0" />
+              <point x="-35.200000000000045" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NetworkBuilder" target="com.stefanik36.soul_prison.network_components.network.Network">
+              <point x="48.0" y="-13.0" />
+              <point x="1053.0066445372368" y="780.0" />
+              <point x="1629.3521783893498" y="780.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.network.Network" target="com.stefanik36.soul_prison.network_components.layer.StepImpl">
+              <point x="-27.14285714285711" y="-13.0" />
+              <point x="1602.2093212464924" y="584.0" />
+              <point x="942.420642588406" y="584.0" />
+              <point x="43.71428571428578" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NetworkBuilder" target="com.stefanik36.soul_prison.builder.StepBuilder">
+              <point x="-38.39999999999998" y="-13.0" />
+              <point x="966.6066445372367" y="780.0" />
+              <point x="701.3233112039035" y="780.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.layer.StepImpl" target="com.stefanik36.soul_prison.network_components.neuron.NeuronNode">
+              <point x="-43.71428571428578" y="-13.0" />
+              <point x="854.9920711598345" y="348.0" />
+              <point x="475.9658119658119" y="348.0" />
+              <point x="43.5" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.layer.StepInput" target="com.stefanik36.soul_prison.network_components.neuron.NeuronInput">
+              <point x="-31.14285714285711" y="-13.0" />
+              <point x="741.0634997312632" y="378.0" />
+              <point x="643.3408119658119" y="378.0" />
+              <point x="46.125" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.source.DataSource" target="com.stefanik36.soul_prison.source.BreastCancerWisconsinData">
+              <point x="14.5" y="-13.0" />
+              <point x="2159.5887873943793" y="242.0" />
+              <point x="2205.5887873943793" y="242.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NetworkBuilder" target="com.stefanik36.soul_prison.builder.OutputResolverFactory">
+              <point x="28.799999999999955" y="-13.0" />
+              <point x="1033.8066445372365" y="760.0" />
+              <point x="1454.692071159834" y="760.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NetworkBuilder" target="com.stefanik36.soul_prison.util.ValidationFunction">
+              <point x="9.600000000000023" y="-13.0" />
+              <point x="1014.6066445372367" y="730.0" />
+              <point x="984.3587378265009" y="730.0" />
+              <point x="984.3587378265009" y="654.0" />
+              <point x="1136.946398046398" y="654.0" />
+              <point x="-68.79999999999995" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.source.RedWineQualityData" target="com.stefanik36.soul_prison.data.DataResultTuple">
+              <point x="0.0" y="-13.0" />
+              <point x="2422.0887873943793" y="86.0" />
+              <point x="2188.7801663979294" y="86.0" />
+              <point x="52.84999999999991" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.ActivationFunctionFactory" target="com.stefanik36.soul_prison.util.ActivationFunction">
+              <point x="0.0" y="-13.0" />
+              <point x="121.0" y="252.0" />
+              <point x="159.33131919250343" y="252.0" />
+              <point x="-57.33333333333333" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.StepBuilder" target="com.stefanik36.soul_prison.network_components.neuron.Neuron">
+              <point x="-9.461538461538453" y="-13.0" />
+              <point x="691.861772742365" y="614.0" />
+              <point x="669.215811965812" y="614.0" />
+              <point x="669.215811965812" y="116.0" />
+              <point x="667.1138660316294" y="116.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.source.DataSource" target="com.stefanik36.soul_prison.data.DataResultTuple">
+              <point x="-14.5" y="-13.0" />
+              <point x="2130.5887873943793" y="242.0" />
+              <point x="2084.5887873943793" y="242.0" />
+              <point x="2084.5887873943793" y="116.0" />
+              <point x="2113.2801663979294" y="116.0" />
+              <point x="-22.65000000000009" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.OutputResolverFactory" target="com.stefanik36.soul_prison.util.FormatUtil">
+              <point x="-64.33333333333326" y="-13.0" />
+              <point x="1390.3587378265008" y="664.0" />
+              <point x="1369.7463980463979" y="664.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.util.OutputResolver" target="com.stefanik36.soul_prison.data.Input">
+              <point x="-48.0" y="-13.0" />
+              <point x="1528.2655849267687" y="388.0" />
+              <point x="1525.2655849267687" y="388.0" />
+              <point x="1525.2655849267687" y="232.0" />
+              <point x="1596.5134997312628" y="232.0" />
+              <point x="9.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NeuronBuilder" target="com.stefanik36.soul_prison.util.ActivationFunction">
+              <point x="-49.818181818181756" y="-13.0" />
+              <point x="383.64003131371555" y="388.0" />
+              <point x="294.3105443533078" y="388.0" />
+              <point x="294.3105443533078" y="212.0" />
+              <point x="254.88687474805897" y="212.0" />
+              <point x="38.22222222222217" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.layer.StepImpl" target="com.stefanik36.soul_prison.network_components.layer.Step">
+              <point x="29.14285714285711" y="-13.0" />
+              <point x="927.8492140169774" y="398.0" />
+              <point x="954.5189843173399" y="398.0" />
+              <point x="-6.166666666666629" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.util.PlotUtil" target="com.stefanik36.soul_prison.model.TrainSummary">
+              <point x="-25.5" y="-13.0" />
+              <point x="1928.297120727713" y="388.0" />
+              <point x="1920.2554540610463" y="388.0" />
+              <point x="54.16666666666674" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NetworkBuilder" target="com.stefanik36.soul_prison.util.OutputResolver">
+              <point x="67.20000000000005" y="-13.0" />
+              <point x="1072.2066445372366" y="810.0" />
+              <point x="1696.9521783893497" y="810.0" />
+              <point x="1696.9521783893497" y="474.0" />
+              <point x="1636.2655849267687" y="474.0" />
+              <point x="60.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.neuron.Synapse" target="com.stefanik36.soul_prison.network_components.neuron.Neuron">
+              <point x="-23.75" y="-13.0" />
+              <point x="472.2158119658119" y="96.0" />
+              <point x="649.5138660316295" y="96.0" />
+              <point x="-17.600000000000023" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.neuron.NeuronNode" target="com.stefanik36.soul_prison.network_components.neuron.Synapse">
+              <point x="29.0" y="-13.0" />
+              <point x="461.4658119658119" y="252.0" />
+              <point x="460.3408119658119" y="252.0" />
+              <point x="-35.625" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NeuronBuilder" target="com.stefanik36.soul_prison.network_components.neuron.NeuronNode">
+              <point x="-12.454545454545439" y="-13.0" />
+              <point x="421.0036676773518" y="408.0" />
+              <point x="417.9658119658119" y="408.0" />
+              <point x="-14.5" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.layer.StepInput" target="com.stefanik36.soul_prison.network_components.neuron.Neuron">
+              <point x="15.571428571428555" y="-13.0" />
+              <point x="787.7777854455488" y="358.0" />
+              <point x="838.5106837606837" y="358.0" />
+              <point x="838.5106837606837" y="86.0" />
+              <point x="684.7138660316295" y="86.0" />
+              <point x="17.600000000000023" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.network.Network" target="com.stefanik36.soul_prison.network_components.layer.StepInput">
+              <point x="-45.238095238095184" y="-13.0" />
+              <point x="1584.1140831512544" y="624.0" />
+              <point x="794.0063568741202" y="624.0" />
+              <point x="21.799999999999955" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.network.Network" target="com.stefanik36.soul_prison.data.Input">
+              <point x="-4.523809523809632" y="-13.0" />
+              <point x="1624.8283688655401" y="534.0" />
+              <point x="1484.7179658791497" y="534.0" />
+              <point x="1484.7179658791497" y="202.0" />
+              <point x="1569.5134997312628" y="202.0" />
+              <point x="-18.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.data.TrainData" target="com.stefanik36.soul_prison.data.DataResultTuple">
+              <point x="45.416666666666515" y="-13.0" />
+              <point x="1768.1822515934352" y="368.0" />
+              <point x="1790.5887873943796" y="368.0" />
+              <point x="1790.5887873943796" y="96.0" />
+              <point x="2083.0801663979296" y="96.0" />
+              <point x="-52.84999999999991" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.util.OutputResolver" target="com.stefanik36.soul_prison.model.TrainSummary">
+              <point x="16.0" y="-13.0" />
+              <point x="1592.2655849267687" y="378.0" />
+              <point x="1811.9221207277128" y="378.0" />
+              <point x="-54.16666666666674" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.util.OutputResolver" target="com.stefanik36.soul_prison.model.TestResult">
+              <point x="48.0" y="-13.0" />
+              <point x="1624.2655849267687" y="398.0" />
+              <point x="1958.3387873943796" y="398.0" />
+              <point x="-50.75" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NeuronBuilder" target="com.stefanik36.soul_prison.network_components.neuron.NeuronInput">
+              <point x="24.909090909090878" y="-13.0" />
+              <point x="458.3673040409882" y="378.0" />
+              <point x="551.0908119658119" y="378.0" />
+              <point x="-46.125" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.util.TestUtil" target="com.stefanik36.soul_prison.builder.NetworkBuilder">
+              <point x="-40.799999999999955" y="-13.0" />
+              <point x="1693.455454061046" y="896.0" />
+              <point x="1005.0066445372366" y="896.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.neuron.NeuronNode" target="com.stefanik36.soul_prison.util.ActivationFunction">
+              <point x="-29.0" y="-13.0" />
+              <point x="403.4658119658119" y="192.0" />
+              <point x="293.10909697028126" y="192.0" />
+              <point x="76.44444444444449" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.util.PlotUtil" target="com.stefanik36.soul_prison.model.TestResult">
+              <point x="25.5" y="-13.0" />
+              <point x="1979.297120727713" y="408.0" />
+              <point x="1987.3387873943796" y="408.0" />
+              <point x="-21.75" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NetworkBuilder" target="com.stefanik36.soul_prison.builder.ActivationFunctionFactory">
+              <point x="-57.59999999999991" y="-13.0" />
+              <point x="947.4066445372367" y="800.0" />
+              <point x="121.0" y="800.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.util.TestUtil" target="com.stefanik36.soul_prison.data.TrainData">
+              <point x="0.0" y="-13.0" />
+              <point x="1734.255454061046" y="876.0" />
+              <point x="1808.9963980463979" y="876.0" />
+              <point x="1808.9963980463979" y="604.0" />
+              <point x="1750.0155849267687" y="604.0" />
+              <point x="27.25" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.OutputResolverFactory" target="com.stefanik36.soul_prison.util.OutputResolver">
+              <point x="0.0" y="-13.0" />
+              <point x="1454.692071159834" y="654.0" />
+              <point x="1516.2655849267687" y="654.0" />
+              <point x="-60.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.StepBuilder" target="com.stefanik36.soul_prison.network_components.layer.StepInput">
+              <point x="18.923076923076906" y="-13.0" />
+              <point x="720.2463881269804" y="624.0" />
+              <point x="750.4063568741203" y="624.0" />
+              <point x="-21.799999999999955" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.network.Network" target="com.stefanik36.soul_prison.data.TrainData">
+              <point x="18.095238095238074" y="-13.0" />
+              <point x="1647.4474164845878" y="604.0" />
+              <point x="1695.5155849267687" y="604.0" />
+              <point x="-27.25" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.layer.Step" target="com.stefanik36.soul_prison.network_components.neuron.Neuron">
+              <point x="0.0" y="-13.0" />
+              <point x="960.6856509840065" y="56.0" />
+              <point x="702.3138660316295" y="56.0" />
+              <point x="35.200000000000045" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.neuron.NeuronBias" target="com.stefanik36.soul_prison.network_components.neuron.Neuron">
+              <point x="0.0" y="-13.0" />
+              <point x="747.1773504273505" y="96.0" />
+              <point x="678.8471993649628" y="96.0" />
+              <point x="11.733333333333348" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NeuronBuilder" target="com.stefanik36.soul_prison.network_components.neuron.Synapse">
+              <point x="12.454545454545496" y="-13.0" />
+              <point x="445.9127585864428" y="368.0" />
+              <point x="514.2158119658119" y="368.0" />
+              <point x="514.2158119658119" y="252.0" />
+              <point x="507.8408119658119" y="252.0" />
+              <point x="11.875" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.neuron.NeuronInput" target="com.stefanik36.soul_prison.network_components.neuron.Neuron">
+              <point x="0.0" y="-13.0" />
+              <point x="597.2158119658119" y="116.0" />
+              <point x="661.2471993649629" y="116.0" />
+              <point x="-5.866666666666674" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.NetworkBuilder" target="com.stefanik36.soul_prison.network_components.layer.StepInput">
+              <point x="-28.799999999999955" y="-13.0" />
+              <point x="976.2066445372367" y="770.0" />
+              <point x="783.3688450560164" y="770.0" />
+              <point x="783.3688450560164" y="624.0" />
+              <point x="772.2063568741203" y="624.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.data.TrainData" target="com.stefanik36.soul_prison.data.InOut">
+              <point x="-27.25" y="-13.0" />
+              <point x="1695.5155849267687" y="358.0" />
+              <point x="1599.4084420696258" y="358.0" />
+              <point x="23.14285714285711" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.network.Network" target="com.stefanik36.soul_prison.data.InOut">
+              <point x="4.523809523809405" y="-13.0" />
+              <point x="1633.875987913159" y="514.0" />
+              <point x="1493.7655849267687" y="514.0" />
+              <point x="1493.7655849267687" y="398.0" />
+              <point x="1541.551299212483" y="398.0" />
+              <point x="-34.71428571428578" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.builder.ValidationFunctionFactory" target="com.stefanik36.soul_prison.util.ValidationFunction">
+              <point x="0.0" y="-13.0" />
+              <point x="1105.3587378265008" y="664.0" />
+              <point x="1171.3463980463978" y="664.0" />
+              <point x="-34.40000000000009" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.network.Network" target="com.stefanik36.soul_prison.util.OutputResolver">
+              <point x="9.047619047619037" y="-13.0" />
+              <point x="1638.3997974369686" y="504.0" />
+              <point x="1564.2655849267687" y="504.0" />
+              <point x="-12.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.data.InOut" target="com.stefanik36.soul_prison.data.Input">
+              <point x="-20.249999999999773" y="-13.0" />
+              <point x="1556.015584926769" y="242.0" />
+              <point x="1605.5134997312628" y="242.0" />
+              <point x="18.0" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.layer.StepImpl" target="com.stefanik36.soul_prison.network_components.neuron.Neuron">
+              <point x="14.571428571428555" y="-13.0" />
+              <point x="913.1856509840065" y="66.0" />
+              <point x="696.4471993649629" y="66.0" />
+              <point x="29.33333333333337" y="13.0" />
+            </edge>
+            <edge source="com.stefanik36.soul_prison.network_components.layer.StepInput" target="com.stefanik36.soul_prison.network_components.layer.Step">
+              <point x="46.714285714285666" y="-13.0" />
+              <point x="818.9206425884059" y="378.0" />
+              <point x="929.8523176506732" y="378.0" />
+              <point x="-30.83333333333337" y="13.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="189.0" y="208.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/ActivationFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/ActivationFunctionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5385">
+          <caret line="360" column="50" selection-start-line="360" selection-start-column="50" selection-end-line="360" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/ValidationFunctionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/ValidationFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/neuron/Neuron.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/TrainData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data/DataResultTupleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/data/DataResultTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/concurrent/atomic/AtomicLong.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/Random.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/awt/Paint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/awt/Color.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jfree/jfreechart/1.5.0/2ce0d4602a285a5e34a9c2a6a179949f61116f4/jfreechart-1.5.0-sources.jar!/org/jfree/chart/JFreeChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="906" column="18" selection-start-line="906" selection-start-column="18" selection-end-line="906" selection-end-column="18" />
+          <folding>
+            <element signature="e#31912#31913#0" expanded="true" />
+            <element signature="e#31953#31954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/OutputResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/WineDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/NetworkBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/IrisDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="423">
+          <caret line="282" column="18" selection-start-line="282" selection-start-column="10" selection-end-line="282" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/AutoEncoderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="398" lean-forward="true" selection-start-line="398" selection-end-line="398" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/PlotUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/StepBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2868#2869#0" expanded="true" />
+            <element signature="e#2912#2913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/model/TrainSummary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/network_components/network/Network.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="163" column="18" lean-forward="true" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -930,57 +1709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/NotFullyConnectedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="175" column="16" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="32" column="74" lean-forward="true" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
-          <folding>
-            <element signature="e#1376#1377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.opencsv/opencsv/4.5/d22177e7b17cbef5d03b825d1e0b9355d3ac0fe0/opencsv-4.5-sources.jar!/com/opencsv/CSVReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="87" column="53" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="358" column="5" selection-start-line="358" selection-start-column="5" selection-end-line="358" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#38164#38165#0" expanded="true" />
-            <element signature="e#38221#38222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/builder/NetworkBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2536">
-          <caret line="218" column="26" selection-start-line="218" selection-start-column="26" selection-end-line="218" selection-end-column="26" />
+        <state relative-caret-position="220">
+          <caret line="114" column="34" lean-forward="true" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -989,8 +1719,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/RedWineQualityDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+        <state relative-caret-position="378">
+          <caret line="168" column="26" lean-forward="true" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/BreastCancerWisconsinDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="38" />
         </state>
       </provider>
     </entry>

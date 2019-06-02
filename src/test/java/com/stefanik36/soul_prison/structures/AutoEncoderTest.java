@@ -13,6 +13,7 @@ import com.stefanik36.soul_prison.network_components.layer.StepImpl;
 import com.stefanik36.soul_prison.network_components.layer.StepInput;
 import com.stefanik36.soul_prison.network_components.network.Network;
 import com.stefanik36.soul_prison.source.DataSource;
+import com.stefanik36.soul_prison.util.PlotUtil;
 import io.vavr.collection.List;
 import io.vavr.control.Option;
 import org.junit.Test;
@@ -305,7 +306,7 @@ public class AutoEncoderTest {
 
     @Test
     public void wineDataAutoEncoder01() {
-        Random random = new Random(66);
+        Random random = new Random(1);
         List<Double> categoryValues = List.of(1.0, 2.0, 3.0);
 
         List<DataResultTuple> iData = DataSource.getWineData();
@@ -327,17 +328,15 @@ public class AutoEncoderTest {
         autoEncoder.trainAutoEncoder(trainData, epochs);
         autoEncoder.testAutoEncoder(trainData);
         TestResult etr = autoEncoder.getTestResult();
-        assertEquals(0.88679, etr.getTestAccuracy(), 0.001);
+        assertEquals(0.9622641509433962, etr.getTestAccuracy(), 0.001);
 //        PlotUtil.plotResult(autoEncoder.getTrainSummaryList(), etr);
     }
 
     @Test
     public void wineDataAutoEncoderFreezeWeightsAddedToNetwork01() {
-        Random random = new Random(66);
+        Random random = new Random(44);
         List<Double> categoryValues = List.of(1.0, 2.0, 3.0);
-
         List<DataResultTuple> iData = DataSource.getWineData();
-
         TrainData trainData = new TrainData(iData, random, categoryValues).setValidation(0.1);
 
         Network autoEncoder = NetworkBuilder.initFullyConnected(ValidationFunctionFactory.equalWithAccuracy(0.01), 13, 13, 10)
@@ -355,33 +354,38 @@ public class AutoEncoderTest {
         autoEncoder.trainAutoEncoder(trainData, epochs);
         autoEncoder.testAutoEncoder(trainData);
         TestResult etr = autoEncoder.getTestResult();
-        assertEquals(0.88679, etr.getTestAccuracy(), 0.001);
+        assertEquals(0.5283018867924528, etr.getTestAccuracy(), 0.001);
 //        PlotUtil.plotResult(autoEncoder.getTrainSummaryList(), etr);
 
 
         StepInput input = StepBuilder.initInput(13)
                 .setRandom(random)
                 .setName("input01")
+                .setBias(0.0)
                 .buildInput();
 
         StepImpl s02 = StepBuilder.updatePrevNeurons((StepImpl) autoEncoder.getSteps().get(1), input.getNeuronsWithBias())
                 .setRandom(random)
+                .setBias(0.0)
                 .buildWithConnections();
         s02.setFrozenWeights(true);
 
         StepImpl s03 = StepBuilder.initFullyConnected(3, input.getNeuronsWithBias(), Option.of(ActivationFunctionFactory.sigmoid()))
                 .setRandom(random)
                 .setName("s03")
+                .setBias(0.0)
                 .buildWithConnections();
 
         StepImpl s04 = StepBuilder.initFullyConnected(3, s02.getNeuronsWithBias(), Option.of(ActivationFunctionFactory.sigmoid()))
                 .setRandom(random)
                 .setName("s04")
+                .setBias(0.0)
                 .buildWithConnections();
 
         StepImpl s05 = StepBuilder.initFullyConnected(3, s03.getNeuronsWithBias().appendAll(s04.getNeurons()), Option.none())
                 .setRandom(random)
                 .setName("s05")
+                .setBias(0.0)
                 .buildWithConnections();
 
         Network network = NetworkBuilder.initFromSteps(ValidationFunctionFactory.binary(), input, s02, s03, s04, s05).build();
@@ -390,17 +394,15 @@ public class AutoEncoderTest {
         network.test(trainData);
         TestResult tr = network.getTestResult();
 
-
-        assertEquals(0.75471, tr.getTestAccuracy(), 0.001);
+        assertEquals(0.9056603773584906, tr.getTestAccuracy(), 0.001);
 //        PlotUtil.plotResult(network.getTrainSummaryList(), tr);
-
 
     }
 
 
     @Test
     public void wineDataAutoEncoderFreezeWeightsAddedToNetwork02() {
-        Random random = new Random(66);
+        Random random = new Random(111);
         List<Double> categoryValues = List.of(1.0, 2.0, 3.0);
 
         List<DataResultTuple> iData = DataSource.getWineData();
@@ -429,10 +431,12 @@ public class AutoEncoderTest {
         StepInput input = StepBuilder.initInput(13)
                 .setRandom(random)
                 .setName("input01")
+                .setBias(0.0)
                 .buildInput();
 
         StepImpl s02 = StepBuilder.updatePrevNeurons((StepImpl) autoEncoder.getSteps().get(1), input.getNeuronsWithBias())
                 .setRandom(random)
+                .setBias(0.0)
                 .buildWithConnections();
         s02.setFrozenWeights(true);
 //        StepImpl s02 = StepBuilder.initFullyConnected(10, input.getNeuronsWithBias(), Option.of(ActivationFunctionFactory.sigmoid()))
@@ -443,11 +447,13 @@ public class AutoEncoderTest {
         StepImpl s03 = StepBuilder.initFullyConnected(2, input.getNeuronsWithBias(), Option.of(ActivationFunctionFactory.sigmoid()))
                 .setRandom(random)
                 .setName("s03")
+                .setBias(0.0)
                 .buildWithConnections();
 
         StepImpl s05 = StepBuilder.initFullyConnected(3, s03.getNeuronsWithBias().appendAll(s02.getNeurons()), Option.none())
                 .setRandom(random)
                 .setName("s05")
+                .setBias(0.0)
                 .buildWithConnections();
 
         Network network = NetworkBuilder.initFromSteps(ValidationFunctionFactory.binary(), input, s02, s03, s05).build();
@@ -456,11 +462,7 @@ public class AutoEncoderTest {
         network.test(trainData);
         TestResult tr = network.getTestResult();
 
-
-        assertEquals(0.73584, tr.getTestAccuracy(), 0.001);
-//        PlotUtil.plotResult(network.getTrainSummaryList(), tr);
-
-
+        assertEquals(0.8867924528301887, tr.getTestAccuracy(), 0.001);
     }
 
 

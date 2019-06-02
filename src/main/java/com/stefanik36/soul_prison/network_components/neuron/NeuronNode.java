@@ -126,4 +126,12 @@ public class NeuronNode implements Neuron {
     public void setName(String name) {
         this.name = name;
     }
+
+    public Double getLearningRate() {
+        return learningRate;
+    }
+
+    public void setLearningRate(Double learningRate) {
+        this.learningRate = learningRate;
+    }
 }

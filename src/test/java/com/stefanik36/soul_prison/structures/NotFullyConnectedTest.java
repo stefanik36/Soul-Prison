@@ -89,7 +89,7 @@ public class NotFullyConnectedTest {
      */
     @Test
     public void wineDataTest01() {
-        Random random = new Random(669);
+        Random random = new Random(666);
 
         List<Double> categoryValues = List.of(1.0, 2.0, 3.0);
         List<DataResultTuple> iData = DataSource.getWineData();
@@ -98,6 +98,7 @@ public class NotFullyConnectedTest {
         StepInput i01 = StepBuilder.initInput(13)
                 .setRandom(random)
                 .setName("i01")
+                .setBias(0.0)
                 .buildInput();
 
         /*
@@ -107,11 +108,13 @@ public class NotFullyConnectedTest {
         StepImpl net01_s02 = StepBuilder.initFullyConnected(5, i01.getNeuronsWithBias(), Option.of(ActivationFunctionFactory.sigmoid()))
                 .setRandom(random)
                 .setName("net01_s02")
+                .setBias(0.0)
                 .buildWithConnections();
 
         StepImpl net01_s03 = StepBuilder.initFullyConnected(3, net01_s02.getNeuronsWithBias(), Option.none())
                 .setRandom(random)
                 .setName("net01_s03")
+                .setBias(0.0)
                 .buildWithConnections();
 
         Network net01 = NetworkBuilder.initFromSteps(ValidationFunctionFactory.binary(), i01, net01_s02, net01_s03).build();
@@ -122,11 +125,13 @@ public class NotFullyConnectedTest {
         StepImpl net02_s04 = StepBuilder.initFullyConnected(5, i01.getNeuronsWithBias().appendAll(net01_s03.getNeurons()), Option.of(ActivationFunctionFactory.sigmoid()))
                 .setRandom(random)
                 .setName("net02_s04")
+                .setBias(0.0)
                 .buildWithConnections();
 
         StepImpl net02_s05 = StepBuilder.initFullyConnected(3, net02_s04.getNeuronsWithBias(), Option.none())
                 .setRandom(random)
                 .setName("net02_s05")
+                .setBias(0.0)
                 .buildWithConnections();
 
         Network net02 = NetworkBuilder.initFromSteps(ValidationFunctionFactory.binary(), i01, net01_s02, net01_s03, net02_s04, net02_s05).build();
@@ -138,11 +143,13 @@ public class NotFullyConnectedTest {
         StepImpl net03_s06 = StepBuilder.initFullyConnected(5, i01.getNeuronsWithBias().appendAll(net01_s03.getNeurons()).appendAll(net02_s05.getNeurons()), Option.of(ActivationFunctionFactory.sigmoid()))
                 .setRandom(random)
                 .setName("net03_s06")
+                .setBias(0.0)
                 .buildWithConnections();
 
         StepImpl net03_s07 = StepBuilder.initFullyConnected(3, net03_s06.getNeuronsWithBias(), Option.none())
                 .setRandom(random)
                 .setName("net03_s07")
+                .setBias(0.0)
                 .buildWithConnections();
 
         Network net03 = NetworkBuilder.initFromSteps(ValidationFunctionFactory.binary(), i01, net01_s02, net01_s03, net02_s04, net02_s05, net03_s06, net03_s07).build();
@@ -166,15 +173,14 @@ public class NotFullyConnectedTest {
                         + " n3: " + new03_tr.getTestAccuracy()
         );
 
-        assertEquals(0.47169, new01_tr.getTestAccuracy(), 0.001);
-        assertEquals(0.377358, new02_tr.getTestAccuracy(), 0.001);
-        assertEquals(0.62264, new03_tr.getTestAccuracy(), 0.001);
+        assertEquals(0.5849056603773585, new01_tr.getTestAccuracy(), 0.001);
+        assertEquals(0.7547169811320755, new02_tr.getTestAccuracy(), 0.001);
+        assertEquals(0.8867924528301887, new03_tr.getTestAccuracy(), 0.001);
     }
 
-    @Ignore
     @Test
     public void wineDataTestFreeze02() {
-        Random random = new Random(66);
+        Random random = new Random(666);
 
         List<Double> categoryValues = List.of(1.0, 2.0, 3.0);
         List<DataResultTuple> iData = DataSource.getWineData();
@@ -183,6 +189,7 @@ public class NotFullyConnectedTest {
         StepInput i01 = StepBuilder.initInput(13)
                 .setRandom(random)
                 .setName("i01")
+                .setBias(0.0)
                 .buildInput();
 
         /*
@@ -192,11 +199,13 @@ public class NotFullyConnectedTest {
         StepImpl net01_s02 = StepBuilder.initFullyConnected(10, i01.getNeuronsWithBias(), Option.of(ActivationFunctionFactory.sigmoid()))
                 .setRandom(random)
                 .setName("net01_s02")
+                .setBias(0.0)
                 .buildWithConnections();
 
         StepImpl net01_s03 = StepBuilder.initFullyConnected(3, net01_s02.getNeuronsWithBias(), Option.none())
                 .setRandom(random)
                 .setName("net01_s03")
+                .setBias(0.0)
                 .buildWithConnections();
 
         Network net01 = NetworkBuilder.initFromSteps(ValidationFunctionFactory.binary(), i01, net01_s02, net01_s03).build();
@@ -207,11 +216,13 @@ public class NotFullyConnectedTest {
         StepImpl net02_s04 = StepBuilder.initFullyConnected(10, i01.getNeuronsWithBias().appendAll(net01_s03.getNeurons()), Option.of(ActivationFunctionFactory.sigmoid()))
                 .setRandom(random)
                 .setName("net02_s04")
+                .setBias(0.0)
                 .buildWithConnections();
 
         StepImpl net02_s05 = StepBuilder.initFullyConnected(3, net02_s04.getNeuronsWithBias(), Option.none())
                 .setRandom(random)
                 .setName("net02_s05")
+                .setBias(0.0)
                 .buildWithConnections();
 
         Network net02 = NetworkBuilder.initFromSteps(ValidationFunctionFactory.binary(), i01, net01_s02, net01_s03, net02_s04, net02_s05).build();
@@ -223,11 +234,13 @@ public class NotFullyConnectedTest {
         StepImpl net03_s06 = StepBuilder.initFullyConnected(10, i01.getNeuronsWithBias().appendAll(net01_s03.getNeurons()).appendAll(net02_s05.getNeurons()), Option.of(ActivationFunctionFactory.sigmoid()))
                 .setRandom(random)
                 .setName("net03_s06")
+                .setBias(0.0)
                 .buildWithConnections();
 
         StepImpl net03_s07 = StepBuilder.initFullyConnected(3, net03_s06.getNeuronsWithBias(), Option.none())
                 .setRandom(random)
                 .setName("net03_s07")
+                .setBias(0.0)
                 .buildWithConnections();
 
         Network net03 = NetworkBuilder.initFromSteps(ValidationFunctionFactory.binary(), i01, net01_s02, net01_s03, net02_s04, net02_s05, net03_s06, net03_s07).build();
@@ -282,9 +295,9 @@ public class NotFullyConnectedTest {
                         + " n3: " + new03_tr.getTestAccuracy()
         );
 
-        assertEquals(1.0, new01_tr.getTestAccuracy(), 0.001);
-        assertEquals(1.0, new02_tr.getTestAccuracy(), 0.001);
-        assertEquals(1.0, new03_tr.getTestAccuracy(), 0.001);
+        assertEquals(0.6037735849056604, new01_tr.getTestAccuracy(), 0.001);
+        assertEquals(0.660377358490566, new02_tr.getTestAccuracy(), 0.001);
+        assertEquals(0.6415094339622641, new03_tr.getTestAccuracy(), 0.001);
     }
 
 }

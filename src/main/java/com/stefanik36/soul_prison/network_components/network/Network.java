@@ -1,6 +1,5 @@
 package com.stefanik36.soul_prison.network_components.network;
 
-import com.stefanik36.soul_prison.builder.OutputResolverFactory;
 import com.stefanik36.soul_prison.data.InOut;
 import com.stefanik36.soul_prison.data.Input;
 import com.stefanik36.soul_prison.data.TrainData;
@@ -14,8 +13,6 @@ import com.stefanik36.soul_prison.util.OutputResolver;
 import com.stefanik36.soul_prison.util.ValidationFunction;
 import io.vavr.collection.List;
 import io.vavr.control.Option;
-
-import java.util.Optional;
 
 public class Network {
     private static boolean showResults = true;
@@ -100,13 +97,19 @@ public class Network {
         long epochsMax = currentEpoch + epochs;
         for (; currentEpoch < epochsMax; currentEpoch++) {
 
-            data.kFold();
+            data.nextKFold();
+//            if (currentEpoch % 100 == 99) {
+//                this.getAllNeurons()
+//                        .filter(n -> n instanceof NeuronNode)
+//                        .map(n -> (NeuronNode) n)
+//                        .forEach(nn -> nn.setLearningRate(nn.getLearningRate() / 10));
+//            }
             List<InOut> trainData = data.getTrain();
             List<InOut> validationData = data.getValidation();
-
             trainEpoch(trainData, validationData);
         }
     }
+
 
     public void test(TrainData data) {
         doTest(data.getTest());
@@ -117,7 +120,7 @@ public class Network {
         long epochsMax = currentEpoch + epochs;
         for (; currentEpoch < epochsMax; currentEpoch++) {
 
-            data.kFold();
+            data.nextKFold();
             List<InOut> trainData = data.getAutoEncoderTrain();
             List<InOut> validationData = data.getAutoEncoderValidation();
 
