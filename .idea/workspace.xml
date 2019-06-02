@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e304f1eb-d263-4b9d-8020-4906f3fbca57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/examples/Breast-Cancer-Wisconsin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/Breast-Cancer-Wisconsin.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/examples/wine-quality-red.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/wine-quality-red.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/BreastCancerWisconsinData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/BreastCancerWisconsinData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/other/Network_structure.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/Network_structure.png" afterDir="false" />
-    </list>
+    <list default="true" id="e304f1eb-d263-4b9d-8020-4906f3fbca57" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -63,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/BreastCancerWisconsinDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="165">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -87,32 +80,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/BreastCancerWisconsinData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="50" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="50" />
+            <state relative-caret-position="311">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/structures/NotFullyConnectedTest.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
+            <state relative-caret-position="296">
+              <caret line="30" column="65" lean-forward="true" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -588,14 +581,11 @@
       <workItem from="1559399501708" duration="301000" />
       <workItem from="1559399854197" duration="15620000" />
       <workItem from="1559468907535" duration="17749000" />
-      <workItem from="1559500756671" duration="96000" />
+      <workItem from="1559500756671" duration="923000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AutoEncoderTest_wineDataAutoEncoderFreezeWeightsAddedToNetwork01 - 2019.06.02 at 17h 39m 09s.xml">
-      <configuration name="AutoEncoderTest.wineDataAutoEncoderFreezeWeightsAddedToNetwork01" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AutoEncoderTest_wineDataAutoEncoderFreezeWeightsAddedToNetwork01 - 2019.06.02 at 17h 40m 25s.xml">
       <configuration name="AutoEncoderTest.wineDataAutoEncoderFreezeWeightsAddedToNetwork01" configurationId="JUnit" />
     </history-entry>
@@ -623,23 +613,25 @@
     <history-entry file="BreastCancerWisconsinDataTest_n01 - 2019.06.02 at 19h 14m 01s.xml">
       <configuration name="BreastCancerWisconsinDataTest.n01" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BreastCancerWisconsinDataTest_n01 - 2019.06.02 at 20h 41m 42s.xml">
+      <configuration name="BreastCancerWisconsinDataTest.n01" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59793000" />
+    <option name="totallyTimeSpent" value="60620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.28223574" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.28223574" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32829374" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32829374" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
@@ -647,7 +639,7 @@
       <window_info anchor="bottom" id="Build" order="6" weight="0.32827735" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32829374" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.3488624" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.3488121" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.39761648" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -1464,16 +1456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="48" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/util/ActivationFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1695,10 +1677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/BreastCancerWisconsinDataTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="165">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1714,18 +1696,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/BreastCancerWisconsinData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="50" />
+        <state relative-caret-position="311">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stefanik36/soul_prison/source/RedWineQualityData.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="30" column="65" lean-forward="true" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stefanik36/soul_prison/data_sets/BreastCancerWisconsinDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <caret line="25" column="5" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
