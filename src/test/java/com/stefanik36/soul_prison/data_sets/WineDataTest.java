@@ -175,4 +175,36 @@ public class WineDataTest {
     }
 
 
+    @Test
+    public void wineDataSigmoidMomentum02() {
+        int seed = 666;
+        Random random = new Random(seed);
+        NetworkBuilder networkBuilder = NetworkBuilder
+                .initFullyConnected(ValidationFunctionFactory.classification(), 13, 3, 40,40,40)
+                .setBias(0.0)
+                .setLearningRate(0.3)
+                .setMomentum(0.3)
+                .setActivationFunction(ActivationFunctionFactory.sigmoid())
+                .setOutputResolver(OutputResolverFactory.standard())
+                .setMean(0.0)
+                .setRange(0.5);
+
+        TrainData data = new TrainData(DataSource.getWineData(), random, List.of(1.0, 2.0, 3.0));
+
+        TestResult result = TestUtil.testDifferentRandoms(
+                (td, net) -> {
+                    net.train(td, 2000);
+                    net.test(td);
+                    return net.getTestResult();
+                },
+                networkBuilder,
+                data,
+                random,
+                20
+        );
+
+        assertEquals(0.7264150943396228, result.getTestAccuracy(), 0.001);
+    }
+
+
 }

@@ -6,18 +6,22 @@ import com.opencsv.CSVReaderBuilder;
 import com.stefanik36.soul_prison.data.DataResultTuple;
 import io.vavr.collection.List;
 
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.util.Optional;
 
 
 public class BreastCancerWisconsinData {
-
+    private static final String FILE_NAME = "Breast-Cancer-Wisconsin.csv";
+    private static final String PATH = "src/main/resources/data/";
+    private static final String JAR_PATH = "data/";
     private List<DataResultTuple> data;
 
     public BreastCancerWisconsinData() {
         this.data = List.empty();
+
+        File file = getFile();
         try (CSVReader csvReader = new CSVReaderBuilder(
-                new FileReader("src/main/resources/data/Breast-Cancer-Wisconsin.csv"))
+                new FileReader(file))
                 .withCSVParser(new CSVParserBuilder().withSeparator(';').build())
                 .build()
         ) {
@@ -40,6 +44,33 @@ public class BreastCancerWisconsinData {
             e.printStackTrace();
         }
     }
+
+    public File extract(String filePath) {
+        try {
+            File f = File.createTempFile(filePath, null);
+            FileOutputStream resourceOS = new FileOutputStream(f);
+            byte[] byteArray = new byte[1024];
+            int i;
+            InputStream classIS = Optional.ofNullable(getClass().getClassLoader().getResourceAsStream(filePath)).orElseThrow(() -> new RuntimeException("cannot find file"));
+            while ((i = classIS.read(byteArray)) > 0) {
+                resourceOS.write(byteArray, 0, i);
+            }
+            classIS.close();
+            resourceOS.close();
+            return f;
+        } catch (Exception e) {
+            throw new RuntimeException("An error has occurred while extracting the database.");
+        }
+    }
+
+    private File getFile() {
+        File file = new File(PATH + FILE_NAME);
+        if (file.exists()) {
+            return file;
+        }
+        return extract(JAR_PATH + FILE_NAME);
+    }
+
     /**
      * ? to 0 changed
      *
