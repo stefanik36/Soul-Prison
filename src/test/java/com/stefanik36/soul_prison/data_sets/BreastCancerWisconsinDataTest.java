@@ -7,23 +7,12 @@ import com.stefanik36.soul_prison.builder.ValidationFunctionFactory;
 import com.stefanik36.soul_prison.data.DataResultTuple;
 import com.stefanik36.soul_prison.data.TrainData;
 import com.stefanik36.soul_prison.model.TestResult;
-import com.stefanik36.soul_prison.source.BreastCancerWisconsinData;
 import com.stefanik36.soul_prison.source.DataSource;
 import com.stefanik36.soul_prison.util.TestUtil;
 import io.vavr.collection.List;
 import org.junit.Test;
 
-import java.io.File;
-import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.net.URL;
-import java.net.URLDecoder;
-import java.nio.file.*;
-import java.util.*;
-import java.util.jar.JarEntry;
-import java.util.jar.JarFile;
-import java.util.stream.Stream;
+import java.util.Random;
 
 import static org.junit.Assert.assertEquals;
 
